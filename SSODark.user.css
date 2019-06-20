@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Tierney SSO Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    Dark Theme for SSO
 @author         Travis Olson
 @updateURL      https://raw.githubusercontent.com/totallytrav/SSODark/master/SSODark.user.css
@@ -21,8 +21,6 @@ html, body
     background-color:#000000 !important;
 }
 .logoImage {
-    max-height: 41px;
-    max-width: 260px;
     display: block;
     -moz-box-sizing: border-box;
     background: url(https://i.imgur.com/YlXZI13.png) no-repeat;
