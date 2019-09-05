@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name           Tierney SSO Dark Theme
 @namespace      totallytrav
-@version        1.0.4
+@version        1.0.5
 @description    Dark Theme for SSO
 @author         Travis Olson
 @homepageURL	https://github.com/totallytrav/SSODark
 @updateURL      https://raw.githubusercontent.com/totallytrav/SSODark/master/SSODark.user.css
 ==/UserStyle== */
 
-@-moz-document domain("app2.tierneybrothers.com") {
+@-moz-document domain("sso.tierneybrothers.com") {
 html, body
 {
     color:#ffffff;
@@ -22,12 +22,7 @@ html, body
     background-color:#000000 !important;
 }
 .logoImage {
-    display: block;
-    -moz-box-sizing: border-box;
-    background: url(https://i.imgur.com/YlXZI13.png) no-repeat;
-    width: 260px;
-    height: 41px;
-    padding-left: 600px;
+    filter: invert(1) hue-rotate(180deg);
 }
 select
 {
