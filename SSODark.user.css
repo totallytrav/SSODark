@@ -22,7 +22,7 @@ html, body
     background-color:#000000 !important;
 }
 .logoImage {
-    filter: invert(1) hue-rotate(180deg) saturate(3) contrast(1.5);
+    filter: invert(1) hue-rotate(180deg) saturate(1) brightness(0.6) contrast(2);
 }
 select
 {
