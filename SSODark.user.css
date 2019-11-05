@@ -39,4 +39,13 @@ span.submit, input[type="submit"] {
 input.text {
     height: 33px;
 }
+#submitButton {
+	background-color: rgb(237, 28, 36);
+}
+input[type="button"]:hover, span.submit:hover {
+    background: rgb(154, 0, 6)!important;
+}
+.customCopyright {
+    color: #ffffff;
+}
 }
